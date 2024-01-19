@@ -25,7 +25,9 @@
             border: 2px solid black;
             border-radius: 5px;
             font-size: 16px; /* Adjusted font size */
+            line-height: 1.2; /* Set line height to prevent text wrapping */
             transition: transform 0.3s, color 0.3s, background-color 0.3s;
+            overflow: hidden; /* Hide overflowing content */
         }
 
         .project-button:hover {
@@ -35,7 +37,7 @@
         }
 
         .project-button:hover .project-image {
-            width: 80%; /* Adjusted image size on hover */
+            height: 80%; /* Adjusted image size on hover */
         }
 
         .project-image {
@@ -44,7 +46,7 @@
             border: 2px solid black;
             border-radius: 5px;
             opacity: 0; /* Initially hide the image */
-            transition: width 0.3s;
+            transition: height 0.3s;
         }
     </style>
 </head>
