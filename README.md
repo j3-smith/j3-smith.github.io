@@ -16,7 +16,7 @@ Being the King of Cool
 
 <hr/> <!-- Horizontal Line as a separator -->
 
-<a href="/projects.md" class="button">View Projects</a>
+<a href="/projects.html" class="button">View Projects</a>
 
 <style>
     .button {
