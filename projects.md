@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #f0f0f0; /* Set a light background color */
+        }
+
+        .project-button {
+            flex: 0 1 calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: transform 0.3s, color 0.3s, background-color 0.3s;
+        }
+
+        .project-button:hover {
+            transform: scale(1.1);
+            background-color: white;
+            color: black;
+        }
+
+        .project-image {
+            width: 100%;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Project Button 1 -->
+    <a href="/path/to/project1.html" class="project-button">
+        <img src="/path/to/project1-image.jpg" alt="Project 1" class="project-image">
+        Project 1
+    </a>
+
+    <!-- Project Button 2 -->
+    <a href="/path/to/project2.html" class="project-button">
+        <img src="/path/to/project2-image.jpg" alt="Project 2" class="project-image">
+        Project 2
+    </a>
+
+    <!-- Project Button 3 -->
+    <a href="/path/to/project3.html" class="project-button">
+        <img src="/path/to/project3-image.jpg" alt="Project 3" class="project-image">
+        Project 3
+    </a>
+
+    <!-- Add more project buttons as needed -->
+
+</body>
+</html>
