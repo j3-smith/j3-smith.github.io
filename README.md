@@ -16,7 +16,7 @@ Being the King of Cool
 
 <hr/> <!-- Horizontal Line as a separator -->
 
-<a href="/path/to/another/page.html" class="button">Projects</a>
+<a href="/j3-smith.github.io/projects.md" class="button">Projects</a>
 
 <style>
     .button {
