@@ -16,7 +16,7 @@ Being the King of Cool
 
 <hr/> <!-- Horizontal Line as a separator -->
 
-<a href="/projects.md" class="button">Projects</a>
+<a href="/projects.md" class="button">View Projects</a>
 
 <style>
     .button {
@@ -30,6 +30,7 @@ Being the King of Cool
         border-radius: 5px;
         font-size: 24px;
         transition: transform 0.3s, color 0.3s, background-color 0.3s;
+        margin-top: 20px;
     }
 
     .button:hover {
