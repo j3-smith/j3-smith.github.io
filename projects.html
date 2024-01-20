@@ -21,11 +21,11 @@
             padding: 10px; /* Reduced padding for a smaller button */
             text-align: center;
             text-decoration: none;
-            color: black; /* Set text color to white */
+            color: white; /* Set text color to white */
             background-color: grey; /* Set the button background color to grey */
             border: 2px solid white; /* Set a white border */
             border-radius: 5px;
-            font-size: 40px; /* Increased font size */
+            font-size: 20px; /* Increased font size */
             line-height: 1.2; /* Set line height to prevent text wrapping */
             font-family: 'Arial', sans-serif; /* Set the font family */
             transition: transform 0.3s, color 0.3s, background-color 0.3s;
@@ -58,25 +58,31 @@
         .project-button:hover .project-image {
             opacity: 1; /* Make the image fully visible on hover */
         }
+
+        /* Black stroke around white text */
+        .project-button span {
+            text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+            /* Adjust the shadow offset and blur radius as needed */
+        }
     </style>
 </head>
 <body>
     <!-- Project Button 1 -->
     <a href="https://sites.google.com/ocdsb.ca/enterprise" class="project-button">
         <img src="/assets/project 1.png" alt="Project 1" class="project-image">
-        Comm Tech Portfolio 2023/2024
+        <span>Comm Tech Portfolio 2023/2024</span>
     </a>
 
     <!-- Project Button 2 -->
     <a href="/path/to/project2.html" class="project-button">
         <img src="/path/to/project2-image.jpg" alt="Project 2" class="project-image">
-        Project 2
+        <span>Project 2</span>
     </a>
 
     <!-- Project Button 3 -->
     <a href="/path/to/project3.html" class="project-button">
         <img src="/path/to/project3-image.jpg" alt="Project 3" class="project-image">
-        Project 3
+        <span>Project 3</span>
     </a>
 
     <!-- Add more project buttons as needed -->
