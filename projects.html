@@ -11,18 +11,19 @@
             justify-content: space-around;
             align-items: flex-start;
             padding: 20px;
-            background-color: #f0f0f0; /* Set a light background color */
+            background-color: black; /* Set background color to black */
+            color: white; /* Set default text color to white */
         }
 
         .project-button {
-            flex: 0 1 calc(40% - 20px); /* Adjusted the button size */
+            flex: 0 1 calc(30% - 20px); /* Adjusted the button size for three buttons per row */
             margin: 10px;
             padding: 10px; /* Reduced padding for a smaller button */
             text-align: center;
             text-decoration: none;
             color: white; /* Set text color to white */
-            background-color: black; /* Set the default background color to black */
-            border: 2px solid black;
+            background-color: grey; /* Set the button background color to grey */
+            border: 2px solid white; /* Set a white border */
             border-radius: 5px;
             font-size: 20px; /* Increased font size */
             line-height: 1.2; /* Set line height to prevent text wrapping */
@@ -38,31 +39,31 @@
 
         .project-button:hover {
             transform: scale(1.1);
-            background-color: black; /* Keep the background black on hover */
+            background-color: grey; /* Keep the background grey on hover */
             color: white;
         }
 
-        .project-button:hover .project-image {
-            opacity: 1; /* Make the image fully visible on hover */
-        }
-
-        .project-image {
+        .project-button .project-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            border: 2px solid black;
+            border: 2px solid white;
             border-radius: 5px;
-            opacity: 0; /* Initially hide the image */
+            opacity: 0.2; /* Set a low opacity by default */
             transition: opacity 0.3s;
+        }
+
+        .project-button:hover .project-image {
+            opacity: 1; /* Make the image fully visible on hover */
         }
     </style>
 </head>
 <body>
     <!-- Project Button 1 -->
     <a href="https://sites.google.com/ocdsb.ca/enterprise" class="project-button">
-        <img src="/assets/project 1.png" alt="Project 1" class="project-image">
+        <img src="/assets/project-1.png" alt="Project 1" class="project-image">
         Comm Tech Portfolio 2023/2024
     </a>
 
